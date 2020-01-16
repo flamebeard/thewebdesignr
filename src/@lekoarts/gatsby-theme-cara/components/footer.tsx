@@ -3,7 +3,7 @@ import { Footer as ThemeFooter, Styled, Flex, useColorMode, jsx } from "theme-ui
 
 const Footer = () => {
   const [colorMode, setColorMode] = useColorMode()
-  const isDark = colorMode === `dark`
+  const isDark = colorMode === `light`
   const toggleColorMode = (e: any) => {
     setColorMode(isDark ? `light` : `dark`)
   }
